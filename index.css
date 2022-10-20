@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+select{
+    padding: 1.1rem 3rem;
+    font-size: large;
+}
+
+#calendar{
+    margin: 2rem 0;
+}
+
+tr,td{
+    padding: 1rem;
+    
+}
+
+
+
+button{
+    padding: 1rem 2rem;
+    background-color: rgb(136, 136, 255);
+    outline: none;
+    border: none;
+    font-size: large;
+}
+
+input{
+    padding: 1.1rem 2rem;
+}
